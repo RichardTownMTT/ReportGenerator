@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportGenerator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Report Generator" Height="350" Width="525">
     <Grid>
-        
+        <Button Name="cmdImperialMetSum" Content="Create Imperial Metrology Summary" HorizontalAlignment="Left" Height="40" Margin="38,27,0,0" VerticalAlignment="Top" Width="208" Click="cmdImperialMetSum_Click"/>
+
     </Grid>
 </Window>

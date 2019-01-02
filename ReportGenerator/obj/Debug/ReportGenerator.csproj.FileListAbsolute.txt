@@ -1,0 +1,16 @@
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe.config
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.pdb
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csprojResolveAssemblyReference.cache
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\App.g.cs
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator_MarkupCompile.cache
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator_MarkupCompile.lref
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\MainWindow.baml
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.g.resources
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.Properties.Resources.resources
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csproj.GenerateResource.Cache
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csproj.CoreCompileInputs.cache
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.exe
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.pdb
+C:\Users\rtown\Documents\Coding\ReportGenerator\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csproj.ResolveComReference.cache
