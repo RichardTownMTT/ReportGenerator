@@ -30,23 +30,16 @@ namespace ReportGenerator
                 int fileExtensionInt = filename.IndexOf(".docx");
                 string saveFileName = filename.Insert(fileExtensionInt, " - Imperial");
 
-                try
-                {
-                    doc.SaveAs2(saveFileName);
-                }
-                catch(Exception ex)
-                {
-                    MessageBox.Show("Error saving file");
-                }
+                doc.SaveAs2(saveFileName);
 
                 app.Quit(WdSaveOptions.wdDoNotSaveChanges);
                 app = null;
 
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                throw ex;
+                throw;
             }
             finally
             {
@@ -128,9 +121,8 @@ namespace ReportGenerator
             //Remove mm and /
             input = input.Replace("mm", "");
 
-            Decimal converted;
 
-            if (Decimal.TryParse(input, out converted))
+            if (Decimal.TryParse(input, out decimal converted))
             {
                 converted = converted / inchConversion;
             }
@@ -158,9 +150,8 @@ namespace ReportGenerator
             input = input.Replace("mm", "");
             input = input.Replace("/", "");
 
-            Decimal converted;
 
-            if (Decimal.TryParse(input, out converted))
+            if (Decimal.TryParse(input, out decimal converted))
             {
                 converted = converted / inchConversion;
             }

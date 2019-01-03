@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Report Generator" Height="350" Width="525">
     <Grid>
-        <Button Name="cmdImperialMetSum" Content="Create Imperial Metrology Summary" HorizontalAlignment="Left" Height="40" Margin="38,27,0,0" VerticalAlignment="Top" Width="208" Click="cmdImperialMetSum_Click"/>
+        <Button Name="CmdImperialMetSum" Content="Create Imperial Metrology Summary" HorizontalAlignment="Left" Height="40" Margin="38,27,0,0" VerticalAlignment="Top" Width="208" Click="CmdImperialMetSum_Click"/>
+        <Button x:Name="CmdNumberTests" Content="Number Report Tests" HorizontalAlignment="Left" Height="40" Margin="38,85,0,0" VerticalAlignment="Top" Width="208" Click="CmdNumberTests_Click"/>
 
     </Grid>
 </Window>

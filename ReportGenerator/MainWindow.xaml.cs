@@ -27,7 +27,7 @@ namespace ReportGenerator
             InitializeComponent();
         }
 
-        private void cmdImperialMetSum_Click(object sender, RoutedEventArgs e)
+        private void CmdImperialMetSum_Click(object sender, RoutedEventArgs e)
         {
             string filename = OpenFile("Word Document(*.docx)|*.docx", "Select Metrology Summary", "No metrology summary document selected");
             if (string.IsNullOrEmpty(filename))
@@ -43,11 +43,32 @@ namespace ReportGenerator
             }
         }
 
+        private void CmdNumberTests_Click(object sender, RoutedEventArgs e)
+        {
+            string filename = OpenFile("Word Document(*.docx)|*.docx", "Select Report File", "No report file selected");
+            if (string.IsNullOrEmpty(filename))
+            {
+                return;
+            }
+
+            Report rpt = new Report(filename);
+            rpt.SetTestNumbers();
+
+            bool success = rpt.Save();
+
+            if (success)
+            {
+                MessageBox.Show("Test numbers updated");
+            }
+        }
+
         private string OpenFile(string filterString, string openFileTitle, string noDocumentSelectedMessage)
         {
-            OpenFileDialog openFile = new OpenFileDialog();
-            openFile.Filter = filterString;
-            openFile.Title = openFileTitle;
+            OpenFileDialog openFile = new OpenFileDialog
+            {
+                Filter = filterString,
+                Title = openFileTitle
+            };
 
             string retval = "";
 
